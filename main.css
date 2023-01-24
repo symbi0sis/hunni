@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: auto;
     padding: 0em 0em 0em;
     border:rgb(255, 134, 134); border-width:50px; border-style:solid;
     border-top-width: 100px;
