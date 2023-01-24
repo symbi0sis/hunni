@@ -71,11 +71,11 @@ h5 {
 
 h6 {
     margin-top: 1em;
-    font-family: "Times", serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-size: auto;
     color: auto;
     border:rgb(255, 0, 0); border-width:5px; border-style:solid;
-    border-bottom-left-radius: 100px;
+     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     line-height: 1em;
     text-align: left;
