@@ -20,7 +20,7 @@ body {
     
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6, h7, h8 {
     background: rgba(255, 255, 255, 0.89);
     box-shadow: 0 0 20px rgba(255, 255, 0, 0.74);
     color: #000000;
@@ -83,6 +83,21 @@ h6 {
 }
 
 h7 {
+    margin-top: 1em;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 100px;
+    color: #094732;
+    border:rgb(255, 0, 0); border-width:5px; border-style:solid;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    line-height: 1em;
+    text-align: left;
+    padding: 100px;
+}
+
+h8 {
+    background: none;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.74);
     margin-top: 1em;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 100px;
