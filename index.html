@@ -7,6 +7,29 @@
         <title>hunni honey hunni honey</title>
         <meta name="description" content="manuscript">
         <link rel="stylesheet" href="main.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ff0000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaffff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #baff00; 
+}
+</style>
     </head>
     <body>
         
@@ -57,6 +80,28 @@
             by wownicesocks_press
             
         </h4>
+        
+        <br><br><br><br><br><br>
+        
+          <h7>Message in a bottle</h7>
+
+<button onclick="typeWriter1()">Activate Sigmund</button>
+
+<p id="hello"></p>
+
+<script>
+var i = 0;
+var txt = 'The present discussions are a further development of some trains of thought which I opened up in Beyond the Pleasure Principle (1920g), and to which, as I remarked there, my attitude was one of a kind of benevolent curiosity. In the following pages these thoughts are linked to various facts of analytic observation and an attempt is made to arrive at new conclusions from this conjunction; in the present work, however, there are no fresh borrowings from biology, and on that account it stands closer to psycho-analysis than does Beyond the Pleasure Principle. It is more in the nature of a synthesis than of a speculation and seems to have had an ambitious aim in view. I am conscious, however, that it does not go beyond the roughest outline and with that limitation I am perfectly content.';
+var speed = 50;
+
+function typeWriter1() {
+  if (i < txt.length) {
+    document.getElementById("hello").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter1, speed);
+  }
+}
+</script>
         
         <h1>HunniHoneyHunniHoney</h1>
         
@@ -240,6 +285,29 @@
         <br>
         
         <h7> MOZERELLA? No. MOZZARELLA.</h7>
+        
+        <h1>Caboose Curtain Call Credits</h1>
+<!--
+
+<button onclick="typewriter2">Activate Sigmund</button>
+
+<p id="credits"></p>
+
+<script>
+var i = 0;
+var txt = 'The id, to which we finally come back, has no means of showing the ego either love or hate. It cannot say what it wants; it has achieved no unified will. Eros and the death instinct struggle within it; we have seen with what weapons the one group of instincts defends itself against the other. It would be possible to picture the id as under the domination of the mute but powerful death instincts, which desire to be at peace and (prompted by the pleasure principle) to put Eros, the mischief-maker, to rest; but perhaps that might be to undervalue the part played by Eros.————————————';
+var speed = 50;
+
+function typeWriter2("credits") {
+  if (i < txt.length) {
+    document.getElementById("credits").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter2, speed);
+  }
+}
+</script>
+
+-->
         
         <br><br><br><br><br><br><br><br><br>
        
